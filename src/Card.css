@@ -1,0 +1,27 @@
+/* 
+.card-container {
+    text-align: center;
+    background-color:rgba(21, 228, 55, 0.26);
+    display: inline-block;
+    border-radius: 1rem;
+    padding: var(--spacing-large);
+    padding: var(--spacing-medium);
+    margin: var(--spacing-small);
+    border-width: .25rem;
+    box-shadow: 4px 4px 8px 0px rgba(12, 151, 206, 0.795);
+    flex-grow : 10;
+    cursor: pointer;
+    -moz-osx-font-smoothing: rgb(214, 11, 11);
+    backface-visibility: hidden;
+    
+   
+
+
+
+}
+
+.tc {
+    background-color: brown;
+    cursor: pointer;
+
+} */
