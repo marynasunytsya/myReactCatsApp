@@ -1,11 +1,11 @@
 import React from "react";
-import CardList from "./CatsList";
-import { cats } from "./Cats";
-import SearchBox from "./SearchBox";
+import CardList from "./components/cats/CatsList";
+import { cats } from "./components/cats/Cats";
+import SearchBox from "./components/searchbox/SearchBox.js"; 
 import { Component } from "react/cjs/react.production.min";
 import './App.css';
 import Tilt from 'react-tilt'
-import ParticleBackground from "./ParticlesBackground";
+import ParticleBackground from "./particles/ParticlesBackground";
 
 class App extends Component {
     constructor() {
@@ -35,6 +35,7 @@ class App extends Component {
                 </Tilt>
                 <SearchBox searchChange={this.onSearchChange} />
                 <CardList cats={filteredCats} />
+                
             </div>
         );
     }

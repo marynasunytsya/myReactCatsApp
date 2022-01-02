@@ -1,11 +1,11 @@
 import React from "react";
-import App from "./App";
+
 
 const SearchBox = ({searchfield, searchChange}) => {
     return (
         <div className="pa2">
         <input 
-        className="pa3 ba b--green bg-lightest-pink" 
+        className="pa3 ba  bg-transparent" 
         type = 'recherche' 
         placeholder = 'Rechercher un chat' 
         onChange={searchChange}/>

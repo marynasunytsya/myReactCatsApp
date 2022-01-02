@@ -6,7 +6,7 @@ const particlesConfig = {
         value: 52,
         density: {
           enable: false,
-          value_area: 710.2342786683108
+          value_area: 910.2342786683108
         }
       },
       color: {
@@ -63,7 +63,7 @@ const particlesConfig = {
         out_mode: "out",
         bounce: false,
         attract: {
-          enable: false,
+          enable: true,
           rotateX: 561.192534135037,
           rotateY: 1200
         }
@@ -108,7 +108,7 @@ const particlesConfig = {
         }
       }
     },
-    retina_detect: true
+    retina_detect: false
   };
 
 export default particlesConfig ;
